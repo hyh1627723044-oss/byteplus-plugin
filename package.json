@@ -1,0 +1,8 @@
+{
+  "name": "byteplus-douyin-control",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Conservative Android Douyin controls for Operit",
+  "scripts": { "test": "node --test", "build": "node scripts/build.cjs", "check": "npm test && npm run build" },
+  "engines": { "node": ">=22" }
+}

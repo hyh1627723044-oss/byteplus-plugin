@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "toolpkg_id": "io.github.hyh1627723044.douyin_control",
+  "version": "0.1.0",
+  "api_version": "1.0.0",
+  "main": "main.js",
+  "display_name": { "zh": "抖音语音控制（待真机校准）", "en": "Douyin Control (device calibration required)" },
+  "description": { "zh": "普通竖屏视频页四动作工具；支持 LLM 调用和严格文本入口，不自带录音服务。", "en": "Four guarded video controls with LLM tools and strict text routing. No standalone microphone service." },
+  "subpackages": [{
+    "id": "douyin_control",
+    "entry": "packages/douyin_control.js",
+    "enabled_by_default": false,
+    "display_name": { "zh": "抖音控制", "en": "Douyin Control" },
+    "description": { "zh": "先校准并开启会话，再执行四个动作。", "en": "Calibrate and start a session before executing actions." }
+  }]
+}

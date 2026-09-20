@@ -1,0 +1,28 @@
+{
+  "packageName": "com.ss.android.ugc.aweme",
+  "activityName": "example.ReplaceWithObservedActivity",
+  "viewport": { "width": 1080, "height": 2400 },
+  "markers": [
+    { "resourceId": "example:id/video_feed" },
+    { "resourceId": "example:id/recommend_tab", "text": "推荐" }
+  ],
+  "blockers": [
+    { "resourceId": "example:id/comment_panel" },
+    { "resourceId": "example:id/live_room" },
+    { "resourceId": "example:id/image_post" },
+    { "resourceId": "example:id/modal_dialog" }
+  ],
+  "identity": [
+    { "resourceId": "example:id/video_author" },
+    { "resourceId": "example:id/video_title" }
+  ],
+  "like": {
+    "on": { "resourceId": "example:id/like", "contentDesc": "已点赞" },
+    "off": { "resourceId": "example:id/like", "contentDesc": "未点赞" }
+  },
+  "favorite": {
+    "on": { "resourceId": "example:id/favorite", "contentDesc": "已收藏" },
+    "off": { "resourceId": "example:id/favorite", "contentDesc": "未收藏" }
+  },
+  "gesture": { "x": 0.45, "top": 0.3, "bottom": 0.7, "durationMs": 300 }
+}
